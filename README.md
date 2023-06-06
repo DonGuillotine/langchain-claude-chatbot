@@ -1,5 +1,8 @@
 # Smart Customer Support Chatbot
 
+![Screenshot (250)](https://github.com/DonGuillotine/langchain-claude-chatbot/assets/89584431/5322fe35-90dc-4258-89e5-366c8e4f2dd6)
+
+
 Welcome to the Smart Customer Support Chatbot repository! Our chatbot is designed to provide exceptional customer support for Ecommerce businesses. With its intelligent features and seamless integration, it aims to revolutionize the way businesses interact with their customers.
 
 ## Features
