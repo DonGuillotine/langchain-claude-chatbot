@@ -1,0 +1,33 @@
+# Smart Customer Support Chatbot
+
+Welcome to the Smart Customer Support Chatbot repository! Our chatbot is designed to provide exceptional customer support for Ecommerce businesses. With its intelligent features and seamless integration, it aims to revolutionize the way businesses interact with their customers.
+
+## Features
+
+- **Intelligent Conversation Tracking:** Our chatbot leverages the power of OpenAI model to intelligently track chat history and maintain context throughout the conversation. This ensures a smooth and personalized customer experience.
+
+- **Seamless Follow-up Questions:** The OpenAI model also enables our chatbot to ask relevant follow-up questions, enhancing the quality of interactions and providing comprehensive assistance to customers.
+
+- **Advanced Shopping Assistance:** Powered by Anthropic's Claude Model, our chatbot excels in delivering exceptional shopping assistance. With its 100k context window, it provides accurate and insightful recommendations to customers, making their shopping experience effortless and enjoyable.
+
+- **Context-Aware Responses:** Our chatbot utilizes sophisticated Natural Language Processing techniques to understand and respond to customer queries effectively. It considers the context of the conversation to provide tailored and meaningful responses.
+
+
+## Contributing
+
+We welcome contributions from the open source community to enhance the functionality and performance of our chatbot. To contribute, please follow these steps:
+
+1\. Fork the repository.
+
+2\. Create a new branch for your feature or bug fix.
+
+3\. Implement your changes and ensure they adhere to our coding standards.
+
+4\. Submit a pull request with a detailed description of your changes.
+
+
+## Contact
+
+For any questions, suggestions, or feedback, please feel free to reach out to us at infect3dlab@gmail.com
+
+Let's create an exceptional customer support experience together!

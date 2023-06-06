@@ -9,7 +9,7 @@ def auto_truncate(val):
     return val[:MAX_TEXT_LENGTH]
  
 
-all_prods_df = pd.read_csv("product_data/product_data.csv", converters={
+all_prods_df = pd.read_csv("product_data/product_data_main.csv", converters={
  
     'bullet_point': auto_truncate,
  

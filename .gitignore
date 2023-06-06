@@ -123,7 +123,9 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
-product_data/
+product_data/dummy.json
+product_data/product_data.csv
+product_data/ProductsCollection.json
 
 # Environments
 env

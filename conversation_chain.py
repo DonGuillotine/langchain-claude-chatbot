@@ -6,14 +6,7 @@ from langchain.chains import (
 )
 from langchain.prompts.chat import (
     ChatPromptTemplate,
-    SystemMessagePromptTemplate,
-    AIMessagePromptTemplate,
     HumanMessagePromptTemplate,
-)
-from langchain.schema import (
-    AIMessage,
-    HumanMessage,
-    SystemMessage
 )
 from langchain.callbacks.manager import CallbackManager
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
@@ -38,7 +31,7 @@ Standalone question:"""
  
 condense_question_prompt = PromptTemplate.from_template(template)
  
-template = """You are a friendly, conversational retail shopping assistant. Use the following context including product names, descriptions, and keywords to show the shopper whats available, help find what they want, and answer any questions.  
+template = """You are a friendly, multilingual conversational ecommerce shopping assistant. Use the following context including product names, descriptions, and keywords to show the shopper whats available, help find what they want, and answer any questions.
 It's ok if you don't know the answer.
 
 
@@ -61,16 +54,7 @@ qa_prompt = HumanMessagePromptTemplate.from_template(template)
 
 
 llm = OpenAI(temperature=0)
- 
-# streaming_llm = OpenAI(
-#     streaming=True,
-#     callback_manager=CallbackManager([
-#         StreamingStdOutCallbackHandler()
-#     ]),
-#     verbose=True,
-#     max_tokens=150,
-#     temperature=0.2
-# )
+
 
 streaming_llm = ChatAnthropic(
     anthropic_api_key=config('CLAUDE_API_KEY'),
@@ -110,13 +94,13 @@ chatbot = ConversationalRetrievalChain(
 
 # chat_history = []
 
-# question = input("Hi! What are you looking for today?")
+# bot_question = input("Hi! What are you looking for today?")
  
 
 # while True:
 #     result = chatbot(
-#         {"question": question, "chat_history": chat_history}
+#         {"question": bot_question, "chat_history": chat_history}
 #     )
 #     print("\n")
 #     chat_history.append((result["question"], result["answer"]))
-#     question = input()
+#     bot_question = input()

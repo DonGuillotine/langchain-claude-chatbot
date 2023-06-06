@@ -16,31 +16,49 @@ if "past" not in st.session_state:
     st.session_state["past"] = []
 
 
-chat_history = []
+summary = """
+You can ask our Chatbot about:
 
+- Earrings: Styles, materials, care instructions.
+- Pillow: Types, sizes, recommendations.
+- Phone case: Compatibility, designs, protection.
+- Chair: Types (e.g., office, gaming), features, comfort.
+- Shoes: Styles, sizes, brands, materials.
+- Baby product: Safety, recommendations, usage instructions.
+- Office products: Stationery, organization, productivity tools.
+- Backpack: Sizes, features, durability, brands.
+- Furniture: Types (e.g., sofas, tables), materials, assembly.
+- Grocery: Products availability, prices, dietary preferences.
+- Light bulb: Types (e.g., LED, incandescent), wattage, compatibility.
+"""
 
+st.markdown(summary)
 
-question = "Hi! What are you looking for today?"
     
-    
 
-def get_text():
-    input_text = st.text_input("You: ", "", key="input")
+def get_text(user_input):
+    input_text = st.text_input("You: ", user_input, key="input")
     return input_text
 
 
-user_input = get_text()
+chat_history = []
 
+
+question = "Hello, I need your assitance"
+
+user_input = get_text(question)
 
 if user_input:
+    question = user_input
     result = chatbot(
-        {"question": question, "chat_history": chat_history}
+        {"question": user_input, "chat_history": chat_history}
     )
     chat_history.append((result["question"], result["answer"]))
-    question = result["question"]
 
     st.session_state.past.append(result["question"])
     st.session_state.generated.append(result["answer"])
+
+    question = result["question"]
 
 if st.session_state["generated"]:
 
