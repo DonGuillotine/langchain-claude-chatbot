@@ -1,3 +1,6 @@
+![Frame 5](https://github.com/DonGuillotine/langchain-claude-chatbot/assets/89584431/91cfd06d-09da-42d3-9779-f8f27d17ed79)
+
+
 # Smart Customer Support Chatbot
 
 ![Screenshot (250)](https://github.com/DonGuillotine/langchain-claude-chatbot/assets/89584431/5322fe35-90dc-4258-89e5-366c8e4f2dd6)
