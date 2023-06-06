@@ -44,7 +44,7 @@ def get_text(user_input):
 chat_history = []
 
 
-question = "Hello, I need your assitance"
+question = "Hello, I need your assistance"
 
 user_input = get_text(question)
 
