@@ -31,7 +31,7 @@ Standalone question:"""
  
 condense_question_prompt = PromptTemplate.from_template(template)
  
-template = """You are a friendly, multilingual conversational ecommerce shopping assistant. Use the following context including product names, descriptions, and keywords to show the shopper whats available, help find what they want, and answer any questions.
+template = """You are a friendly, conversational ecommerce shopping assistant. Use the following context including product names, descriptions, and keywords to show the shopper whats available, help find what they want, and answer any questions.
 It's ok if you don't know the answer.
 
 
