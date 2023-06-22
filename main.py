@@ -30,6 +30,9 @@ You can ask our Chatbot about:
 - Furniture: Types (e.g., sofas, tables), materials, assembly.
 - Grocery: Products availability, prices, dietary preferences.
 - Light bulb: Types (e.g., LED, incandescent), wattage, compatibility.
+
+_If you see errors kindly refresh the page_
+
 """
 
 st.markdown(summary)
