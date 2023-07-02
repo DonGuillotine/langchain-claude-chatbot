@@ -10,7 +10,7 @@ Welcome to the Smart Customer Support Chatbot repository! Our chatbot is designe
 
 ## Features
 
-- **Intelligent Conversation Tracking:** Our chatbot leverages the power of OpenAI model to intelligently track chat history and maintain context throughout the conversation. This ensures a smooth and personalized customer experience.
+- **Intelligent Conversation Tracking:** Our chatbot intelligently tracks chat history and maintain context throughout the conversation. This ensures a smooth and personalized customer experience.
 
 - **Seamless Follow-up Questions:** The OpenAI model also enables our chatbot to ask relevant follow-up questions, enhancing the quality of interactions and providing comprehensive assistance to customers.
 
