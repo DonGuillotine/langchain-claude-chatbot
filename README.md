@@ -16,7 +16,7 @@ Welcome to the Smart Customer Support Chatbot repository! Our chatbot is designe
 
 - **Advanced Shopping Assistance:** Powered by Anthropic's Claude Model, our chatbot excels in delivering exceptional shopping assistance. With its 100k context window, it provides accurate and insightful recommendations to customers, making their shopping experience effortless and enjoyable.
 
-- **Context-Aware Responses:** Our chatbot utilizes sophisticated Natural Language Processing techniques to understand and respond to customer queries effectively. It considers the context of the conversation to provide tailored and meaningful responses.
+- **Context-Aware Responses:** Our chatbot understands and respond to customer queries effectively. It considers the context of the conversation to provide tailored and meaningful responses.
 
 
 ## Contributing
