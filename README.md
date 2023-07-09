@@ -36,4 +36,4 @@ We welcome contributions from the open source community to enhance the functiona
 
 For any questions, suggestions, or feedback, please feel free to reach out to us at infect3dlab@gmail.com
 
-Let's create an exceptional customer support experience together!
+Let's create an exceptional customer support experience together ✨!
