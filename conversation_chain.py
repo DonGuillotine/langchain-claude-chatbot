@@ -89,18 +89,3 @@ chatbot = ConversationalRetrievalChain(
     combine_docs_chain=doc_chain,
     question_generator=question_generator
 )
-
-
-
-# chat_history = []
-
-# bot_question = input("Hi! What are you looking for today?")
- 
-
-# while True:
-#     result = chatbot(
-#         {"question": bot_question, "chat_history": chat_history}
-#     )
-#     print("\n")
-#     chat_history.append((result["question"], result["answer"]))
-#     bot_question = input()
