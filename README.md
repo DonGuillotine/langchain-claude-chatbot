@@ -38,6 +38,10 @@ For any questions, suggestions, or feedback, please feel free to reach out to us
 
 Let's create an exceptional customer support experience together ✨!
 
+## Star Gazers
+
 [![Stargazers repo roster for @DonGuillotine/langchain-claude-chatbot](https://reporoster.com/stars/dark/notext/DonGuillotine/langchain-claude-chatbot)](https://github.com/DonGuillotine/langchain-claude-chatbot/stargazers)
+
+## Forkers
 
 [![Forkers repo roster for @DonGuillotine/langchain-claude-chatbot](https://reporoster.com/forks/dark/notext/DonGuillotine/langchain-claude-chatbot)](https://github.com/DonGuillotine/langchain-claude-chatbot/network/members)
