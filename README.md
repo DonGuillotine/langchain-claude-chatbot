@@ -37,3 +37,7 @@ We welcome contributions from the open source community to enhance the functiona
 For any questions, suggestions, or feedback, please feel free to reach out to us at infect3dlab@gmail.com
 
 Let's create an exceptional customer support experience together ✨!
+
+[![Stargazers repo roster for @DonGuillotine/langchain-claude-chatbot](https://reporoster.com/stars/dark/notext/DonGuillotine/langchain-claude-chatbot)](https://github.com/DonGuillotine/langchain-claude-chatbot/stargazers)
+
+[![Forkers repo roster for @DonGuillotine/langchain-claude-chatbot](https://reporoster.com/forks/dark/notext/DonGuillotine/langchain-claude-chatbot)](https://github.com/DonGuillotine/langchain-claude-chatbot/network/members)
