@@ -35,7 +35,7 @@ vectorstore = Chroma.from_documents(split_json, embeddings)
 print(vectorstore)
 
 memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
-# qa = ConversationalRetrievalChain.from_llm(OpenAI(temperature=0), vectorstore.as_retriever(), memory=memory)
+qa = ConversationalRetrievalChain.from_llm(OpenAI(temperature=0), vectorstore.as_retriever(), memory=memory)
 
 query = "What is the price of 'Non-Alcoholic Concentrated Perfume Oil'?"
 result = qa({"question": query})
