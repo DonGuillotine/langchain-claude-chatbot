@@ -16,7 +16,7 @@ from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 chat = ChatAnthropic(streaming=True, verbose=True, callback_manager=CallbackManager([StreamingStdOutCallbackHandler()]))
 
 messages = [
-    HumanMessage(content="Translate this sentence from English to French. I love programming.")
+    HumanMessage(content="Translate this sentence from English to Spanish. I love programming.")
 ]
 chat(messages)
 
