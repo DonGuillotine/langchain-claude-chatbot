@@ -17,7 +17,7 @@ db = client[mongo_database]
 collection = db[mongo_collection]
 
 
-# Query products 
+# Query products data 
 all_products = collection.find() 
 products_list = []
 for product in all_products:
